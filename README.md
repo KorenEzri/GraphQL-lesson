@@ -32,7 +32,7 @@ This repository includes a basic template for starting the project.
 
 # Step two
 
-## Now that your server is working, create a React app to support displaying a bunch of books with images, book titles etc. Feel free to design it as you wish, but even something [as basic as this]() will do.
+## Now that your server is working, create a React app to support displaying a bunch of books with images, book titles etc. Feel free to design it as you wish, but even something [as basic as this](./assets/demo.PNG) will do.
 
 ### About the UI and what you should have by now
 
@@ -42,7 +42,7 @@ By now you should have a working GQL server that does nothing and a frontend UI 
 
 ### Setting up UI requests and defining queries and mutations in the server to resolve those requests.
 
-#### Important: please take a look at [`data-mock.js`]() - this is your "database", this is how your data will look.
+#### Important: please take a look at [`assets/data-mock.js`]() - this is your "database", this is how your data will look.
 
 - Create a type definition for the object you'll be dealing with
 - Create a type definition for a book - what does it look like according to the `data-mock.js` mock file?
@@ -53,7 +53,7 @@ By now you should have a working GQL server that does nothing and a frontend UI 
 
 ### What you should expect to receive:
 
-[image]()
+![](https://github.com/KorenEzri/GraphQL-lesson/blob/master/assets/res_example_getallbooks.PNG)
 
 If you got this response then you are golden! If you didn't - keep trying! GraphQL can be annoying in the beginning, but it's so cool once you get the hang of it :)
 
@@ -78,7 +78,7 @@ If you got this response then you are golden! If you didn't - keep trying! Graph
 
 #### By now, including the new mutation - you should not have more than two queries and one mutation in your client or in your server. If you have more than three total then you missed something and you should try to see which of your queries is unnecessary and why.
 
-#### Remeber: GraphQL queries use fields to select specific data that the client requests - no more data than the client is requesting each time...
+#### Remember: GraphQL queries use fields to select specific data that the client requests - no more data than the client is requesting each time...
 
 # Bonus
 
