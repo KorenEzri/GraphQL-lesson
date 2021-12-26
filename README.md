@@ -63,14 +63,14 @@ If you got this response then you are golden! If you didn't - keep trying! Graph
 
 - [Follow this guide]() to learn how to connect a React app to a GraphQL server using ApolloClient
 - Connect your server and create a query that fetches all the book data to the client
-- Display all the books from the server in your app. It should look like [this]()
+- Display all the books from the server in your app. It should look like [this](./assets/step4demo.PNG)
 
 # Step five
 
 ### Expanding functionality and adding features
 
 - For each book, now also display it's author's name.
-- For each book, now also display a list of books that the author has written (see [this]() for an example: `stephen king, has published books: [list of books]`
+- For each book, now also display a list of books that the author has written (see [this](./assets/demo.PNG) for an example: `stephen king, has published books: [list of books]`
 - Add a server-side search (search the DB (the mock) in the server - don't send the whole block of data to the client and then filter it there) for books according to title - some query like `getBooksByTitle`
 - Create a new mutation in your server - `deleteBook` - that will delete a book by ID. Add this functionality to your client either by using double click on a book to delete it or by adding some button.
 
