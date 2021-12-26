@@ -9,7 +9,7 @@ export function Book({ book }: { book: IBook }) {
       </div>
       <div className="description">
         <p className="title">
-          {book.title}
+          {book?.title}
           <br />
         </p>
       </div>

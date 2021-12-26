@@ -12,16 +12,16 @@ interface Props {
 export function BookDisplay({ book, author, setBooks }: Props) {
   const client = useApolloClient();
 
-  return book && author ? (
+  return book ? (
     <div
       className="book_display"
       onDoubleClick={async () => {
         try {
-         await mutateAndSetState({
+          await mutateAndSetState({
             client,
             action: mutationDeleteBook,
             variables: { id: Number(book.id) } as any,
-            setter: setBooks
+            setter: setBooks,
           });
         } catch ({ message }) {
           console.log(message);
@@ -29,7 +29,7 @@ export function BookDisplay({ book, author, setBooks }: Props) {
       }}
     >
       <Book book={book} />
-      <Author author={author} />
+      {author && <Author author={author} />}
     </div>
   ) : null;
 }
