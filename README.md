@@ -95,6 +95,6 @@ If you got this response then you are golden! If you didn't - keep trying! Graph
 - Your readme should have a [`repl.it`](https://repl.it/) link with your solutions.
 - Submit a link to your repo to the CRM.
 
-# Please if you have any questions contact me (Koren) !
+### Please if you have any questions, feel free to contact me (Koren)
 
 GOOD LUCK!
