@@ -61,7 +61,7 @@ export const booksMock = [
   {
     id: 661,
     title: 'Let It Be',
-    author: authorsMock[0],
+    author: authorsMock[1],
     text: 'TEXT',
     cover:
       'https://s.tmimgcdn.com/scr/1200x750/109300/let-it-b-bitcoin-and-crypto-company-business-logo-template_109372-original.jpg',
