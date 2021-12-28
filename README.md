@@ -23,12 +23,12 @@ This repository includes a basic template for starting the project.
 
 - Create the server: remember, a GraphQL-express server consists of an `index.js/ts` file to launch it using Apollo, typeDefs and resolvers.
 
-  - [For hints on creating a basic GraphQL server]()
+  - [For hints on creating a basic GraphQL server](https://youtu.be/0OvDumPYiSs)
 
 - Create a new query definition in `typeDefs` and a new resolver in `resolvers` called `queryTest`. Let it return some string like `test passed!`
 
 - Go to `localhost:YOUR_PORT_NUMBER/graphql`, and using the Apollo Studio send a query to your server and see if it returns correctly!
-  - [For more info about how to use Apollo Studio]()
+  - [For more info about how to use Apollo Studio](https://youtu.be/0OvDumPYiSs?t=456)
 
 # Step two
 
